@@ -1,6 +1,6 @@
 import { FiMenu, FiVolumeX } from "react-icons/fi";
-// @ts-ignore
-import { Clock } from "./Clock";
+
+import { Clock } from "./clock";
 import { Player } from "./player";
 import { Switch } from "./switch";
 
