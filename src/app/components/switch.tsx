@@ -8,7 +8,7 @@ export const Switch = () => {
   return (
     <button
       onClick={() => setTheme(!theme)}
-      className={`flex items-center justify-between bg-[hsla(0,0%,7%,.75)] w-14 px-1 h-8 rounded-full ${
+      className={`flex items-center justify-between py-5 bg-[hsla(0,0%,7%,.75)] border border-[hsla(0,0%,100%,.1)] w-14 px-1 h-8 rounded-full ${
         theme ? "flex-row-reverse" : ""
       }`}
     >
