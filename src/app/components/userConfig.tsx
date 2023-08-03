@@ -56,7 +56,7 @@ export const UserConfig = () => {
   const [mixerActive, setMixerActive] = useState(false);
 
   return (
-    <section className="absolute bottom-12 items-center justify-between bg-[hsla(0,0%,7%,.75)] flex w-60 h-[50px] rounded-lg px-12 border border-[hsla(0,0%,100%,.1)] md:right-7 md:flex-col md:w-[40px] md:h-60 md:py-7 md:translate-y-1/2 md:bottom-1/2 md:px-6">
+    <section className="absolute bottom-16 items-center justify-between bg-[hsla(0,0%,7%,.75)] flex w-60 h-[50px] rounded-lg px-12 border border-[hsla(0,0%,100%,.1)] md:right-7 md:flex-col md:w-[40px] md:h-60 md:py-7 md:translate-y-1/2 md:bottom-1/2 md:px-6">
       {mixerActive && <Mixer setMixerActive={setMixerActive} />}
 
       <Tooltip
