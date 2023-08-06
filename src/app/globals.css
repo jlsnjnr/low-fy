@@ -4,6 +4,6 @@
 
 @layer components { 
   .bgVolume {
-    @apply flex items-center justify-between px-1 bg-[hsla(0,0%,7%,.75)] h-10 rounded-md md:px-4
+    @apply flex items-center justify-between px-1 bg-[hsla(0,0%,7%,.75)] h-10 rounded-md md:px-4;
   }
 }
